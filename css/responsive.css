@@ -1,0 +1,169 @@
+@media (max-width: 767px){
+	.site-header:before {
+		content: "";
+		background: #fff;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		z-index: -1;
+	}
+	.site-nav {
+		position: absolute;
+		background: #4e638b;
+		top: 0;
+		width: 80%;
+		height: 100vh;
+		left: 0;
+		transform: translateX(-100%);
+		transition: transform 0.4s ease-in-out;
+		z-index: 1;
+	}
+	.site-nav ul{
+		display: block;
+	}
+	.site-nav ul li {
+		padding: 0;
+	}
+	.nactive .site-nav {
+		transform: translateX(0);
+		
+	}
+	.site-nav li a {
+		display: block;
+		text-align: center;
+		padding: 30px 0;
+		font-size: 16px;
+		font-weight: 600;
+		color: #fff;
+		border-bottom: 1px solid #9b9b9b;
+	}
+}
+@media (min-width: 576px){
+	.top-destinations .column {
+		width: 50%;
+	}
+	.topdestination-list {
+		max-width: none;
+	}
+	.featured__treks .column {
+		width: 50%;
+	}
+	.certificate .column {
+		width: 33.33%;
+	}
+	.site-footer .qlinks,
+	.site-footer .company {
+		width: 50%;
+	}
+}
+@media (min-width: 768px){
+	.menu {
+		display: none;
+	}
+	.topdestination-list .info-topdestination span{
+		font-size: 16px;
+	}
+	.topdestination-list .info2-destination h3 {
+		font-size: 20px;
+	}
+	.featured__thumbnails .info2__destination h3 {
+		font-size: 20px;
+	}
+	.featured__thumbnails .info-topdestination span{
+		font-size: 16px;
+	}
+	.certificate .column {
+		width: 16.6666667%;
+	}
+	.site-footer .column {
+		margin: 0;
+		width: 50%;
+		padding: 12px;
+	}
+	.site-footer .qlinks {
+		order: 1;
+	}
+	.site-footer .news {
+		order: 2;
+	}
+	.site-footer .contact {
+		order: 4;
+	}
+	.site-footer .company {
+		order: 3;
+	}
+
+}
+@media (min-width: 992px){
+	.logo {
+		width: 180px;
+	}
+	.site-nav {
+		display: block;
+	}
+	.main-banner .banner {
+		height: 600px;
+	}
+	.main-banner .banner video {
+		display: block;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+	.section-title {
+		font-size: 28px;
+	}
+	.top-destinations .column {
+		width: 33.33%;
+	}
+
+	.featured__treks .column {
+		width: 33.33%;
+	}
+	.featured__thumbnails {
+		max-width: none;
+		padding:none;
+	}
+	.testimonials .column {
+		width: 33.33%;
+	}
+	.certificate .column {
+		width: 16.666666667%;
+	}
+	.site-footer .column {
+		width: 25%;
+		padding: 0;
+	}
+	.topdestination-list .info-topdestination span{
+		font-size: 16px;
+	}
+	.topdestination-list .info2-destination h3 {
+		font-size: 20px;
+	}
+	.featured__thumbnails .info2__destination h3 {
+		font-size: 20px;
+	}
+	.featured__thumbnails .info-topdestination span{
+		font-size: 16px;
+	}
+	.site-footer .contact {
+		order: 1;
+	}
+	.site-footer .qlinks {
+		order: 2;
+	}
+	.site-footer .company {
+		order: 3;
+	}
+	.site-footer .news {
+		order: 4;
+	}
+
+
+
+}
+@media (min-width: 1200px) {
+
+}
